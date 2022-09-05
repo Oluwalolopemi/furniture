@@ -448,3 +448,154 @@ line-height: 48px;
     left: 3.5%;
     transform: translateY(10%);
 }
+
+/* team */
+.small-container-4{
+    min-width: 1000px;
+    /* margin: auto; */
+    padding: 0 50px;
+    min-height: 80vh;
+}
+
+#meet{
+    color: #000;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 4px;
+}
+
+.world{
+    color: #000;
+    text-align: center;
+    /* justify-content: center; */
+    padding: 10px 0 10px 0;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 800;
+}
+
+.team{
+    position: relative;
+    background: #fff;
+}
+
+.world::after{
+    content: '';
+    background: #FB941B;
+    border-radius: 5px;
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    /* bottom: 130px; */
+    top: 200px;
+    left: 45%;
+    transform: translateY(50%);
+}
+
+.col-img img{
+    width: 90%;
+    margin-left: 40px;
+}
+
+.col-img{
+    margin-top: 35px;
+}
+
+.content{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.tag{
+    color: #FB941B;
+}
+
+.name{
+    margin-bottom: 8px;
+}
+
+/* touch */
+.touch{
+    padding: 0 50px;
+    background-image: url(../img/heroimage.png);
+    margin-top: 50px;
+    position: relative;
+}
+
+.row-2{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 50px;
+}
+
+.row-2 input{
+    width: 350px;
+    margin: 4px 0;
+    padding: 12px;
+    border: none;
+    color: #C4C4C4;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    outline: none;
+}
+
+.row-2 input:hover{
+    border: 1px solid #FB941B;
+    color: #FB941B;
+    cursor: pointer;
+}
+
+.row-2 textarea{
+    margin: 8px 0;
+    outline: none;
+    border: none;
+    padding: 8px;
+    color: #C4C4C4;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.row-2 textarea:hover{
+    border: 1px solid #FB941B;
+    color: #FB941B;
+    cursor: pointer;
+}
+
+.send{
+    text-align: right;
+}
+
+.in-touch{
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.in-touch::after{
+    content: '';
+    background: #FB941B;
+    border-radius: 5px;
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    /* bottom: 130px; */
+    top: 100px;
+    left: 4%;
+    /* transform: translateY(10%); */
+}
+
+.border-1{
+    color: #FB941B;
+    opacity: 50%;
+    padding: 100px;
+    border: 15px solid #FB941B;
+    width: 380px;
+    height: 340px;
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    margin-bottom: 40px;
+}
+
