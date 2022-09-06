@@ -677,7 +677,7 @@ line-height: 46px;
 /* media query */
 
 @media screen and (max-width: 429px) {
-    
+
     .none{
         display: none;
     }
@@ -707,7 +707,7 @@ line-height: 46px;
 
     #get{
         text-align: center;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     
     .header{
@@ -721,6 +721,13 @@ line-height: 46px;
     .into, .best, .are, #your, .world, .in-touch{
         font-size: 26px;
         line-height: 34px;
+    }
+
+    .col-2 h2 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 4px;
+        /* margin-bottom: 25px; */
     }
 
     .col-2 h6{
@@ -758,7 +765,7 @@ line-height: 46px;
     }
     
     .into::after{
-        top: 220px;
+        top: 110px;
     }
 
     .best::after {
@@ -884,8 +891,8 @@ line-height: 46px;
         text-align: center;
     }
 
-    .row-2 input{
-        width: 372px;
+    .row-2 textarea{
+        width: 90%;
     }
 
     .row-2{
@@ -897,13 +904,13 @@ line-height: 46px;
         width: 230px;
         height: 120px;
         position: absolute;
-        left: 25%;
+        left: 20%;
         top: 460px;
         margin-bottom: 20px;
     }
 
     .number {
-        margin: 30px 0 0px 100px;
+        margin: 30px 0 0px 85px;
         width: 55%;
     }
 
