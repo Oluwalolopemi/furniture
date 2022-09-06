@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -12,20 +13,20 @@
     <title>Furniture</title>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="nav-bar">
                 <div class="logo">
                     <img src="./img/Logo frame.png" width="60px" alt="logo">
                 </div>
-                <nav>
+                <nav class="none">
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Produts <i class="fa-regular fa-angle-down"></i></a></li>
+                        <li><a href="">Produts <i class="ri-arrow-down-s-line"></i></a></li>
                         <li><a href="">Projects</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
-                    <img src="./img/searchicon.png" alt="searchicon">
+                    <i class="ri-search-line"></i>
                 </nav>
             </div>
             <div class="row-1">
@@ -36,10 +37,10 @@
                         <a href="" class="btn">See Projects</a>
                     </div>
                 </div>
-                <div class="border"></div>
+                <div class="border none"></div>
             </div>
         </div>
-    </div>
+    </header>
     <!-- reality section -->
     <div class="reality-section">
         <div class="small-container">
@@ -54,7 +55,7 @@
                 </div>
                 <div class="col-2-image">
                    <img src="./img/welcomeimg1.png" alt="welcomeimg1">
-                   <img src="./img/welcomeimg2.png" id="remove" alt="welcomeimg2">
+                   <img src="./img/welcomeimg2.png" class="none" alt="welcomeimg2">
                 </div>
                 <!-- <div class="col-2-image">
                     <img src="./img/welcomeimg2.png" alt="welcomeimg2">
@@ -114,7 +115,7 @@
             <div class="amazing">
                 <p id="explore" >EXPLORE</p>
                 <h2 id="your">Amazing products for your everyday life</h2>
-                <div>
+                <div class="post">
                     <a href="" class="btn-3">See all projects</a>
                 </div>
             </div>
@@ -135,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 none">
                         <div>
                             <img src="./img/wall cabinets.png" alt="wall cabinets">
                         </div>
@@ -150,7 +151,7 @@
                             </div>
                         </div>  
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 none">
                         <div>
                             <img src="./img/tables.png" alt="tables">
                         </div>
@@ -165,7 +166,7 @@
                             </div>
                         </div>   
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 none">
                         <div>
                             <img src="./img/dining tables.png" alt="dining tables">
                         </div>
@@ -197,7 +198,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 none">
                         <div>
                             <img src="./img/bedfittings.png" alt="bedfittings">
                         </div>
@@ -212,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 none">
                         <div>
                             <img src="./img/kitchentabletops.png"alt="kitchentabletops">
                         </div>
@@ -227,7 +228,7 @@
                             </div> 
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 none">
                         <div>
                             <img src="./img/bedside drawers.png" alt="bedside drawers">
                         </div>
@@ -292,7 +293,7 @@
                                 <input type="text" placeholder="Full Name"> 
                             </div>
                             <div>
-                                <input type="email" placeholder="Email Address"> 
+                                <input type="email" placeholder="Email Address">
                             </div>
                             <div>
                                 <input type="tel" placeholder="Phone Number"> 
