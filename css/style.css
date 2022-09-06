@@ -8,12 +8,12 @@
 .header{
     background-image: url(../img/heroimage.png);
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
 }
 
 .container{
-    min-width: 300px;
+    width: 100vw;
     /* margin: auto; */
     padding: 0 50px;
 }
@@ -99,7 +99,7 @@ a{
 }
 
 .small-container{
-    min-width: 400px;
+    width: 100vw;
     margin: 0 20px;
     padding: 0 50px;
 }
@@ -225,7 +225,7 @@ a{
 }
 
 .small-container-1{
-    max-width: 1400px;
+    width: 100vw;
     margin: auto;
     padding: 0 50px;
     min-height: 130vh;
@@ -243,7 +243,7 @@ a{
 .col-4{
     /* flex-basis: 100%; */
     padding: 40px;
-    min-width: 200px;
+    width: 100vw;
     margin-bottom: 10px;
     /* margin-right: 10px;  */
 }
@@ -278,10 +278,10 @@ a{
 
 
 .small-container-2{
-    max-width: 1200px;
+    width: 100vw;
     margin: auto;
     padding: 0 50px;
-    min-height: 80vh;
+    height: 100vh;
 }
 
 /* .specialization */
@@ -295,7 +295,8 @@ a{
 
 .specialization{
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
 }
 
 .are{
@@ -382,10 +383,10 @@ a{
 }
 
 .small-container-3{
-    min-width: 500px;
+    width: 100vw;
     /* margin: auto; */
     padding: 0 50px;
-    min-height: 80vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -402,7 +403,7 @@ a{
 }
 
 .row-picture img{
-    width: 92%;
+    width: 85%;
 }
 
 .first{
@@ -414,9 +415,9 @@ a{
 }
 
 .text{
-    width: 92%;
+    width: 85%;
     background: #fff;
-    padding: 10px;
+    padding: 15px;
 }
 
 .text h2{
@@ -452,17 +453,17 @@ line-height: 46px;
     position: absolute;
     width: 140px;
     height: 2px;
-    bottom: 370px;
+    top: 440px;
     left: 3.5%;
     transform: translateY(10%);
 }
 
 /* team */
 .small-container-4{
-    min-width: 1000px;
+    width: 100vw;
     /* margin: auto; */
     padding: 0 50px;
-    min-height: 80vh;
+    height: 100vh;
 }
 
 #meet{
@@ -470,8 +471,8 @@ line-height: 46px;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 4px;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .world{
@@ -487,6 +488,7 @@ line-height: 46px;
 .team{
     position: relative;
     background: #fff;
+    margin-bottom: 180px;
 }
 
 .world::after{
@@ -616,7 +618,7 @@ line-height: 46px;
 }
 
 .number{
-    margin: 45px 0 0px 200px;
+    margin: 70px 0 0px 200px;
     width: 45%;
     color: #fff;
 }
@@ -642,8 +644,9 @@ line-height: 46px;
     display: inline-block;
     list-style-type: none;
     margin-right: 12px;
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
+    line-height: 28px;
 }
 
 .social{
@@ -664,6 +667,7 @@ line-height: 46px;
     color: #FB941B;
     font-size: 14px;
     font-weight: 400;
+    line-height: 24px;
 }
 
 /* media query */
@@ -674,8 +678,7 @@ line-height: 46px;
         background-image: url(../img/heroimage.png);
         /* background-image: linear-gradient(rgba(233, 201, 186, 0.8),rgba(233, 201, 186, 0.8)), url(../img/heroimage.png); */
         background-size: cover;
-        min-height: 40vh;
-        width: 100%;
+        width: 100vw;
     }
     /* hero-text */
 
@@ -750,7 +753,7 @@ line-height: 46px;
     }
     
     .small-container{
-        min-width: 400px;
+        width: 100vw;
         padding: 0 50px;
     }
     
@@ -861,7 +864,7 @@ line-height: 46px;
 }
 
 .col-4 img{
-    width: 100%;
+    width: 80%;
 }
 
 .best{
@@ -883,6 +886,11 @@ line-height: 46px;
     font-size: 14px;
     line-height: 24px;
 }
+
+.specialization{
+    height: 100vh;
+}
+
 
 .are{
     font-size: 28px;
@@ -1031,16 +1039,17 @@ line-height: 46px;
 }
 
 .row-2 input{
-    width: 320px;
+    width: 250px;
     margin: 4px 0;
 }
 
 .row-2 textarea{
     margin: 4px 0;
+    width: 250px;
 }
 
 .send{
-    text-align: center;
+    text-align: left;
 }
 
 .in-touch{
@@ -1061,12 +1070,12 @@ line-height: 46px;
     width: 200px;
     height: 200px;
     left: 20%;
-    top: 64%;
+    top: 65%;
     margin-bottom: 0px;
 }
 
 .number{
-    margin: 40px 0 0px 65px;
+    margin: 25px 0 0px 65px;
     width: 45%;
 }
 
